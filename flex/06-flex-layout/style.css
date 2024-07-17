@@ -19,14 +19,15 @@ li > a {
   color: #7A82AB;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
 }
 
-/* .header ul {
-
-} */
+.header ul, .footer ul {
+  display: flex;
+  gap: 20px;
+}
 
 img {
   width: 600px;
